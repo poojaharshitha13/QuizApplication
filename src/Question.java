@@ -1,0 +1,1 @@
+public class Question{int id;String text;String[]o;int c;public Question(int id,String t,String[]o,int c){this.id=id;this.text=t;this.o=o;this.c=c;}public int getId(){return id;}public String getText(){return text;}public String[] getOptions(){return o;}public int getCorrectIndex(){return c;}}
